@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55" started-at="2022-07-28T20:32:17 IST" finished-at="2022-07-28T20:32:17 IST">
+    <groups>
+      <group name="smoketest1">
+        <method signature="Testng_Grouping.cMethod()[pri:0, instance:com.testng.Testng_Grouping@cd2dae5]" name="cMethod" class="com.testng.Testng_Grouping"/>
+      </group> <!-- smoketest1 -->
+      <group name="smoketest2">
+        <method signature="Testng_Grouping.bMethod()[pri:0, instance:com.testng.Testng_Grouping@cd2dae5]" name="bMethod" class="com.testng.Testng_Grouping"/>
+        <method signature="Testng_Grouping.cMethod()[pri:0, instance:com.testng.Testng_Grouping@cd2dae5]" name="cMethod" class="com.testng.Testng_Grouping"/>
+        <method signature="Testng_Grouping.dMethod()[pri:0, instance:com.testng.Testng_Grouping@cd2dae5]" name="dMethod" class="com.testng.Testng_Grouping"/>
+      </group> <!-- smoketest2 -->
+    </groups>
+    <test name="Test" duration-ms="55" started-at="2022-07-28T20:32:17 IST" finished-at="2022-07-28T20:32:17 IST">
+      <class name="com.testng.Testng_Grouping">
+        <test-method status="PASS" signature="bMethod()[pri:0, instance:com.testng.Testng_Grouping@cd2dae5]" name="bMethod" duration-ms="10" started-at="2022-07-28T20:32:17 IST" finished-at="2022-07-28T20:32:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method status="PASS" signature="cMethod()[pri:0, instance:com.testng.Testng_Grouping@cd2dae5]" name="cMethod" duration-ms="1" started-at="2022-07-28T20:32:17 IST" finished-at="2022-07-28T20:32:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cMethod -->
+        <test-method status="PASS" signature="dMethod()[pri:0, instance:com.testng.Testng_Grouping@cd2dae5]" name="dMethod" duration-ms="1" started-at="2022-07-28T20:32:17 IST" finished-at="2022-07-28T20:32:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dMethod -->
+      </class> <!-- com.testng.Testng_Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
